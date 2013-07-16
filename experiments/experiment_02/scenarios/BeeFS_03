@@ -32,7 +32,7 @@ transition_duration=2500
 # Indicates if BeeFS can wake up machines that are in some sleeping state. Possible values are true and false.
 wake_on_lan=true
 
-replicator=simulation.beefs.replication.Kind
+replicator=kind
 
 energy_consumption_model=simulation.beefs.energy.Conservative
 
