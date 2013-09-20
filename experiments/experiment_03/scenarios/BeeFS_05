@@ -12,10 +12,10 @@ simulation_end=1320235000
 traces_dir=/local/patrickjem/mestrado/traces
 
 # Data placement police. Possible values are random and co-random
-placement_police=co-random
+placement_police=random
 
 # The time in seconds that a machine must remain idle before sleep. 
-to_sleep_timeout=300
+to_sleep_timeout=600
 
 # The number of replicas that must be created per file.
 replication_level=2
@@ -24,15 +24,14 @@ replication_level=2
 # contents.
 time_to_coherence=900
 
+# The time in seconds that the metadata server must wait after a file is deleted before actually delete its replicas.
+time_to_delete_replicas=900
+
 transition_duration=2500
 
 # Indicates if BeeFS can wake up machines that are in some sleeping state. Possible values are true and false.
 wake_on_lan=true
 
-replicator=kind
-
 energy_consumption_model=simulation.beefs.energy.Conservative
 
 stop_on_error=false
-
-free_space=7809031447
