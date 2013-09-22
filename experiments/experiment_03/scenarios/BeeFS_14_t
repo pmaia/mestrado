@@ -18,29 +18,29 @@ placement_police=co-random
 to_sleep_timeout=600
 
 # The number of replicas that must be created per file.
-replication_level=0
+replication_level=2
 
 # The time in seconds that the metadata server must wait after a changed file is closed before update its replicas 
 # contents.
 time_to_coherence=900
 
-transition_duration=0
+transition_duration=2500
 
-replicator=noop
+replicator=migrate_replicas_wake_up
 
 energy_consumption_model=simulation.beefs.energy.Conservative
 
 stop_on_error=false
 
 #free_space
-abelhinha_free_space=1099511627776
-celacanto_free_space=1099511627776
-charroco_free_space=1099511627776
-cherne_free_space=1099511627776
-mulato_free_space=1099511627776
-ourico_free_space=1099511627776
-palmito_free_space=1099511627776
-pepino_free_space=1099511627776
-sargento_free_space=1099511627776
-traira_free_space=1099511627776
-viola_free_space=1099511627776
+abelhinha_free_space=8589934592
+celacanto_free_space=8589934592
+charroco_free_space=8589934592
+cherne_free_space=8589934592
+mulato_free_space=8589934592
+ourico_free_space=8589934592
+palmito_free_space=8589934592
+pepino_free_space=8589934592
+sargento_free_space=8589934592
+traira_free_space=8589934592
+viola_free_space=8589934592

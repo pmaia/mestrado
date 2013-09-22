@@ -24,7 +24,7 @@ replication_level=0
 # contents.
 time_to_coherence=900
 
-transition_duration=0
+transition_duration=2500
 
 replicator=noop
 

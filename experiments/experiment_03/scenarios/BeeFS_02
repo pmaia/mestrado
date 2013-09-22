@@ -24,14 +24,23 @@ replication_level=2
 # contents.
 time_to_coherence=900
 
-# The time in seconds that the metadata server must wait after a file is deleted before actually delete its replicas.
-time_to_delete_replicas=900
+transition_duration=0
 
-transition_duration=2500
-
-# Indicates if BeeFS can wake up machines that are in some sleeping state. Possible values are true and false.
-wake_on_lan=true
+replicator=never_migrate_replicas
 
 energy_consumption_model=simulation.beefs.energy.Conservative
 
 stop_on_error=false
+
+#free_space
+abelhinha_free_space=1099511627776
+celacanto_free_space=1099511627776
+charroco_free_space=1099511627776
+cherne_free_space=1099511627776
+mulato_free_space=1099511627776
+ourico_free_space=1099511627776
+palmito_free_space=1099511627776
+pepino_free_space=1099511627776
+sargento_free_space=1099511627776
+traira_free_space=1099511627776
+viola_free_space=1099511627776
